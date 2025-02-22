@@ -68,6 +68,14 @@ repositories {
         name = "Lat's Maven (Rhino, KubeJS)"
         url = "https://maven.saps.dev/minecraft"
     }
+
+    maven {
+        name = "JitpackMaven"
+        url 'https://jitpack.io'
+        content {
+            includeGroup "com.github.rtyley"
+        }
+    }
 }
 
 dependencies {
